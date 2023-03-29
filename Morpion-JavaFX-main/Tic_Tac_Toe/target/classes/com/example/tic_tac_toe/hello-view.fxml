@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-1.0" maxWidth="-1.0" prefHeight="375.0" prefWidth="597.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.tic_tac_toe.MainController">
+   <children>
+      <Button fx:id="ModeSolo" layoutX="161.0" layoutY="170.0" mnemonicParsing="false" onAction="#Solobtn" text="Mode solo" />
+      <Button fx:id="ONEVONE" layoutX="385.0" layoutY="170.0" mnemonicParsing="false" onAction="#ONEVONEbtn" text="1V1" />
+      <Label layoutX="91.0" layoutY="28.0" text="Bienvenue sur le jeu du Morpion">
+         <font>
+            <Font name="PT Mono Bold" size="22.0" />
+         </font>
+      </Label>
+      <Label layoutX="159.0" layoutY="93.0" text="Veuillez choisir votre mode de jeu">
+         <font>
+            <Font name="Luminari" size="18.0" />
+         </font>
+      </Label>
+      <Button fx:id="Score" layoutX="275.0" layoutY="305.0" mnemonicParsing="false" onAction="#Scorebtn" text="Score" />
+      <Label layoutX="177.0" layoutY="243.0" text="Regardez vos scores de parties">
+         <font>
+            <Font name="Apple Symbols" size="22.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
